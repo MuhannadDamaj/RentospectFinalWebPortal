@@ -1,0 +1,7 @@
+﻿@using RentospectWebApp.API
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = nameof(UserRoleEnum.Administrator))]
+
+@code {
+
+}
